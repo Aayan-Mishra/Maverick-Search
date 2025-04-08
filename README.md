@@ -15,7 +15,7 @@ Maverick Search is an open-source AI search engine designed to run locally. Any 
 | **Model Compatibility**         | Allows integration with other external models via the API for flexible search.  | Users can choose to use different AI models for their search tasks, offering more versatility. |
 
 <p align="center">
-  <img src="https://exa.imgix.net/simpleqa-eval-7.png?fm=avif&q=50" alt="Image" />
+  <img src="https://exa.imgix.net/simpleqa-eval-7.png?fm=avif&q=50" alt="Image" width=400 />
 </p>
 
 <p align="center">

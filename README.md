@@ -61,7 +61,7 @@ python3 SCRIPT_NAME.py
 
 ### 2) Install dependencies and run code (Local):
 
-<span style="color:blue">Make sure you have Ollama installed on your device, if not [download here](https://ollama.com/)</span>
+> **Note:** Make sure you have Ollama installed on your device, if not [download here](https://ollama.com/)
 
 All the dependencies are in the `requirements.txt` so you can install all of them with the following command:
 

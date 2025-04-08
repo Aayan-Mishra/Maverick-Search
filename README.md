@@ -22,4 +22,10 @@ Maverick Search is an open-source AI search engine designed to run locally. Any 
   <em>Exa Search API compared to other search engines. Source: Exa AI</em>
 </p>
 
+## 3. Usage
 
+This repository consists of 3 code files: **Engine, CLI and UI**
+
+- **Engine:** This code file consists of just the Exa Search API call so that if you would like, you could build your own applications on the Exa python library. This is what Maverick-Search CLI and UI are based on
+- **CLI:** This is the full code which consists of every feature e.g Search, Local Model usage and API model usage and etc. This is for more experienced users who want to use/modify the full code.
+- **UI:** is a variation of CLI but has a Streamlit powered UI (Coming Soon)

@@ -14,3 +14,12 @@ Maverick Search is an open-source AI search engine designed to run locally. Any 
 | **Customizable Search Options** | Users can configure search parameters and model settings through the API.       | Enables personalized search experiences based on user needs and preferences. |
 | **Model Compatibility**         | Allows integration with other external models via the API for flexible search.  | Users can choose to use different AI models for their search tasks, offering more versatility. |
 
+<p align="center">
+  <img src="https://exa.imgix.net/simpleqa-eval-7.png?fm=avif&q=50" alt="Image" />
+</p>
+
+<p align="center">
+  <em>Exa Search API compared to other search engines. Source: Exa AI</em>
+</p>
+
+

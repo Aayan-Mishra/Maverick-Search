@@ -29,3 +29,60 @@ This repository consists of 3 code files: **Engine, CLI and UI**
 - **Engine:** This code file consists of just the Exa Search API call so that if you would like, you could build your own applications on the Exa python library. This is what Maverick-Search CLI and UI are based on
 - **CLI:** This is the full code which consists of every feature e.g Search, Local Model usage and API model usage and etc. This is for more experienced users who want to use/modify the full code.
 - **UI:** is a variation of CLI but has a Streamlit powered UI (Coming Soon)
+
+### 1) Clone the repository:
+
+To clone the repository and enter it, simple run the following command in your CLI
+
+```bash
+git clone https://github.com/Aayan-Mishra/Maverick-Search.git
+cd Maverick-Search
+```
+
+### 2) Install dependencies and run code (API):
+
+All the dependencies are in the `requirements.txt` so you can install all of them with the following command:
+
+```py
+pip install -r requirements.txt
+```
+
+Once all the depenecies are installed configure your Exa API Key in the following line:
+
+```py
+exa = Exa('YOUR_EXA_API_KEY')
+```
+
+Now you can run any one of the scripts using the following command!
+
+```py
+python3 SCRIPT_NAME.py
+```
+
+### 2) Install dependencies and run code (Local):
+
+>> Make sure you have Ollama installed on your device, if not [download here](https://ollama.com/)
+
+All the dependencies are in the `requirements.txt` so you can install all of them with the following command:
+
+```py
+pip install -r requirements.txt
+```
+
+Once all the depenecies are installed configure your Exa API Key in the following line:
+
+```py
+exa = Exa('YOUR_EXA_API_KEY')
+```
+
+Since we are using the model locally, we need to use Ollama to inference the model, below is an example command for a [model](https://huggingface.co/NousResearch/Hermes-3-Llama-3.2-3B-GGUF) that is works well with the Maverick Search code:
+
+```bash
+ollama run hf.co/NousResearch/Hermes-3-Llama-3.2-3B-GGUF:Q8_0
+```
+
+Now you can run any one of the scripts using the following command!
+
+```py
+python3 SCRIPT_NAME.py
+```

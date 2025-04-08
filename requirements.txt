@@ -1,0 +1,7 @@
+exa-py
+numpy
+openai
+markdown
+requests
+json
+shutil

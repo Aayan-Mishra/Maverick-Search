@@ -87,7 +87,7 @@ def main():
     clear_screen()
     print_header()
 
-    exa = Exa('3db3dd65-8c3e-403b-af51-87a5088768af')
+    exa = Exa('YOUR_EXA_API_KEY')
 
     query = input(f"{BOLD}{CLAUDE_CYAN}What would you like to search for?:{END} ")
     search_count = int(input(f"{BOLD}{CLAUDE_CYAN}How many results do you want:{END} "))

@@ -82,7 +82,14 @@ ollama run hf.co/NousResearch/Hermes-3-Llama-3.2-3B-GGUF:Q8_0
 ```
 
 Now you can run any one of the scripts using the following command!
-
 ```py
 python3 SCRIPT_NAME.py
 ```
+
+## 4. Acknowledgements
+
+Maverick Search couldn't have been possible without the following services:
+- **Exa AI**: Exa Search API is what powers the powerful search API behind Maverick Search
+- **OpenRouter**: OpenRouter provides an extensive list of models with free APIs that help people use AI models with Maverick Search
+- **Ollama**: Ollama is a lightweight, extensible framework for building and running language models on the local machine, allowing Maverick Search the ability to infrence models locally with search results as a context
+

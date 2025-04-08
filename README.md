@@ -32,6 +32,8 @@ This repository consists of 3 code files: **Engine, CLI and UI**
 
 ### 1) Clone the repository:
 
+**You need to create an API key at exa.ai who provides new users with $15 worth of credit!**
+
 To clone the repository and enter it, simple run the following command in your CLI
 
 ```bash
